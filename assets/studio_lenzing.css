@@ -3,6 +3,18 @@ body {
     font-weight: 700;
 }
 
-.nav-link {
+.topnav a {
+    color: #000;
+}
+
+.topnav a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+.topnav .brand a {
+    font-size: 1.5rem;
+}
+.topnav .links a {
     font-size: 0.75rem;
 }
