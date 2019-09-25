@@ -3,18 +3,29 @@ body {
     font-weight: 700;
 }
 
-.topnav a {
+.topnav {
+    width: 1200px;
+    margin: 125px auto;
+    padding: 15px;
+}
+
+a {
     color: #000;
 }
 
-.topnav a:hover {
+a:hover {
     color: #444;
     text-decoration: none;
 }
 
-.topnav .brand a {
+.logo-title {
     font-size: 1.5rem;
 }
-.topnav .links a {
+
+.nav-link {
     font-size: 0.75rem;
+}
+
+.nav-link a {
+    padding-right: 100px;
 }
