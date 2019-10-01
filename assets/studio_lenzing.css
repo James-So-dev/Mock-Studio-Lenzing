@@ -1,31 +1,28 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 
-.topnav {
-    width: 1200px;
-    margin: 125px auto;
-    padding: 15px;
+.nav {
+  width: 1200px;
+  margin: 125px auto;
+  padding: 15px;
 }
 
-a {
-    color: #000;
+.nav__link {
+  color: #000;
 }
 
-a:hover {
-    color: #444;
-    text-decoration: none;
+.nav__link:hover {
+  color: #444;
+  text-decoration: none;
 }
 
-.logo-title {
-    font-size: 1.5rem;
+.nav__logo-container .nav__link {
+  font-size: 1.5rem;
 }
 
-.nav-link {
-    font-size: 0.75rem;
-}
-
-.nav-link a {
-    padding-right: 100px;
+.nav__list .nav__link {
+  font-size: 0.75rem;
+  padding-right: 100px;
 }
